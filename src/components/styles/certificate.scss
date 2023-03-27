@@ -1,0 +1,49 @@
+@font-face{
+    font-family: 'Montserrat Variable';
+    src: url("../../../public/assets/fonts/Montserrat-Light.ttf");
+}
+@font-face{
+    font-family: 'GlacialIndifference Regular';
+    src: url("../../../public/assets/fonts/GlacialIndifference-Regular.ttf");
+}
+@font-face{
+    font-family: 'LeagueSpartan Variable';
+    src: url("../../../public/assets/fonts/LeagueSpartan-Bold.ttf");
+}
+@font-face{
+    font-family: 'LeagueSpartan Semibold';
+    src: url("../../../public/assets/fonts/LeagueSpartan-SemiBold.ttf");
+}
+body{
+    padding: 0;
+    margin: 0;
+    // font-family: 'Roboto';
+}
+
+.course__completion{
+    font-family: 'LeagueSpartan Semibold';
+    font-size: 4rem;
+    line-height: 4.4rem;
+    color: #ff4e00;
+    text-transform: uppercase;
+}
+.content{
+    font-family: 'Montserrat Variable';
+    font-size: 1.25rem;
+    // line-height: 2rem;
+    color: #444440;
+}
+.course_name{
+    font-family: 'LeagueSpartan Variable';
+    color: #6b59cb;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    // line-height: 3.2rem;
+}
+.position_sign{
+    font-family: 'GlacialIndifference Regular';  
+    color: #ff4e00;
+    font-size: 0.82rem; 
+    line-height: 1.15rem; 
+    font-weight: 600;
+}
